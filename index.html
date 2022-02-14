@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>To Do List</title>
+</head>
+<body>
+
+    <nav class="py-2 bg-primary border-bottom">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link link-dark px-2 active" aria-current="page">To Do List</a></li>
+            <li class="nav-item"><a href="landing.html" class="nav-link link-dark px-2">Giveaway</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    <div class="text-center">
+        <h1>To Do List</h1>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-11">
+                <input type="text" accesskey="u" class="form-control" id="txb-input-task">
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-secondary" id="btn-add-task">+</button>
+            </div>
+        </div>
+        <div class="row" id="to-do-container">
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center position-absolute bottom-0 start-12">
+        
+        <div class="col-4">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Giveaway</h4>
+            </div>
+            <div class="card-body">
+                <img class="col-5 rounded-lg-3" src="images/Premium.jpg" alt="" width="">
+                <p></p>
+              
+              <a href="landing.html" class="w-100 btn btn-lg btn-warning">Participar</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+   <script type="text/javascript" src="todo.js"></script>
+</body>
+</html>

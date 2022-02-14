@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/fondo1.jpg);
+    background-size: 100%;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom:30px;
+	justify-content: center;
+	align-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+
+.rounded-lg-3{
+    height: 200px;
+    
+}
+
+h1 {
+    color: #f2b629;
+}
+
